@@ -5,24 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e7c7dd-a56a-42fa-8c81-c7ac051007a5" name="Changes" comment="primitive and non-primitive data types">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/collections/ArrayListInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/collections/DequeInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/collections/HashMapInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/collections/HashTableInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/collections/HashsetInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/collections/LinkedListInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/collections/QueueInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/collections/StackInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/collections/TreeMapInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/collections/TreeSetInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/BufferedReaderIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/io/ScannerIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstraction/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstraction/GraphicObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abstraction/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/classes/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/comparable/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/comparator/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/comparator/StudentComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/encapsulation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/inheritance/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/inheritance/MountainBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/interfaces/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/interfaces/MountainBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/interfaces/TwoWheeler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/interfaces/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/polymorphism/MethodOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/streams/streamsInJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/datatypes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NonPrimitiveDataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/datatypes/NonPrimitiveDataTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PrimitiveDataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/datatypes/PrimitiveDataTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/collections/HashMapInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/collections/HashMapInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/collections/TreeSetInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/collections/TreeSetInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/datatypes/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/datatypes/NonPrimitiveDataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/datatypes/NonPrimitiveDataTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/datatypes/PrimitiveDataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/datatypes/PrimitiveDataTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/BufferedReaderIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/BufferedReaderIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/io/ScannerIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/io/ScannerIO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,16 +69,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+    "last_opened_file_path": "/Users/pushpakantbehera/dev/java/learning-java/src/main/java/org/comparator",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DequeInJava">
-    <configuration name="DequeInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.collections.DequeInJava" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/comparator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.comparable" />
+      <recent name="org.encapsulation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.comparator.Student">
+    <configuration name="GraphicObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.abstraction.GraphicObject" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.collections.*" />
+          <option name="PATTERN" value="org.abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.collections.HashMapInJava" />
+    <configuration name="MethodOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.polymorphism.MethodOverloading" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.collections.*" />
+          <option name="PATTERN" value="org.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.collections.QueueInJava" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.classes.Student" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.collections.*" />
+          <option name="PATTERN" value="org.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.collections.StackInJava" />
+    <configuration name="org.comparable.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.comparable.Student" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.collections.*" />
+          <option name="PATTERN" value="org.comparable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.collections.TreeMapInJava" />
+    <configuration name="org.comparator.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.comparator.Student" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.collections.*" />
+          <option name="PATTERN" value="org.comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DequeInJava" />
-        <item itemvalue="Application.QueueInJava" />
-        <item itemvalue="Application.StackInJava" />
-        <item itemvalue="Application.TreeMapInJava" />
-        <item itemvalue="Application.HashMapInJava" />
+        <item itemvalue="Application.org.comparator.Student" />
+        <item itemvalue="Application.org.comparable.Student" />
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.MethodOverloading" />
+        <item itemvalue="Application.GraphicObject" />
       </list>
     </recent_temporary>
   </component>
@@ -184,5 +201,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primitive and non-primitive data types" />
     <option name="LAST_COMMIT_MESSAGE" value="primitive and non-primitive data types" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

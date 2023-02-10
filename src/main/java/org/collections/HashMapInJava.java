@@ -17,12 +17,12 @@ public class HashMapInJava {
 
         System.out.println(hashmap);
 
-        if(hashmap.containsKey("a")) {
+        if (hashmap.containsKey("a")) {
             Integer a = hashmap.get("a");
             System.out.println("Value for a: " + a);
         }
 
-        for(String key: hashmap.keySet()) {
+        for (String key : hashmap.keySet()) {
             System.out.print(key + " ");
         }
         System.out.println('\n');
@@ -30,7 +30,7 @@ public class HashMapInJava {
         System.out.println(hashmap.keySet());
         System.out.println(hashmap.values());
 
-        for(Entry<String, Integer> entry:hashmap.entrySet()) {
+        for (Entry<String, Integer> entry : hashmap.entrySet()) {
             System.out.println("Key " + entry.getKey() + ", value: " + entry.getValue());
         }
     }

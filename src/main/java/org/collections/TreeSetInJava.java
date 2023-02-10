@@ -17,8 +17,8 @@ public class TreeSetInJava {
 
         treeSet.remove("C");
 
-        for(String item: treeSet) {
-            System.out.print(item+" ");
+        for (String item : treeSet) {
+            System.out.print(item + " ");
         }
     }
 }
