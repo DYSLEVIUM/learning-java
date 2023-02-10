@@ -1,4 +1,4 @@
-package org.example;
+package org.datatypes;
 
 public class NonPrimitiveDataTypes {
   public static void main(String[] args) {

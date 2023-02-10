@@ -1,4 +1,4 @@
-package org.example;
+package org.datatypes;
 
 public class PrimitiveDataTypes {
   public static void main(String[] args) {
